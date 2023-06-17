@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Font Awesome 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Lamcara Coffee</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <!-- img slider -->
+            <div class="slider">
+                <div class="slides">
+                    <!-- radio btn -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <!-- slide image -->
+                    <div class="slide first">
+                        <img src="assets/img/slide1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slide2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/slide3.jpg" alt="">
+                    </div>
+
+                    <!-- auto navigation -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+
+                <!-- manual navigation -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+            <!-- img slider end -->
+
+            <div class="jumbotron-text">
+                <h1>Lamcara Coffee</h1>
+                <p>Sebuah warung kopi tradisional kecil di Banda Aceh <br> dengan minuman 
+                dan pelayanan terbaik untuk anda. <br><br> Mari ketahui tentang kami!</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-logo">
+            <img src="assets/img/lamcara-logo-white.png" alt="">
+        </div>
+        <div class="menu-btn" onclick="menuBtn()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="nav-link" id="nav-link">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#bestMenu">Best Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+              </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="content">
+
+            <!-- Best menu title-->
+            <div class="container" id="bestMenu">
+                <h4>The Best Menu with Unbeatable Delicacy</h4>
+                <h2>BEST MENU</h2>
+                <div class="line"></div>
+            </div>
+
+            <!-- Best menu content -->
+            <article class="best-menu">
+                <div class="card-menu">
+                    <img src="assets/img/menu/menu1.jpg" alt="">
+                    <h3>KOPI PANCONG</h3>
+                    <p>Kopi dengan tekstur rasa yang kuat, dengan sajian kopi setengah gelas.</p>
+                </div>
+                <div class="card-menu">
+                    <img src="assets/img/menu/menu2.jpg" alt="">
+                    <h3>KOPI SANGER</h3>
+                    <p>Dengan perbandingan 1:4 antara susu dan kopi membuat rasa kopi
+                        menjadi gurih tanpa menghilangkan cita rasa kopi.
+                    </p>
+                </div>
+                <div class="card-menu">
+                    <img src="assets/img/menu/menu3.jpg" alt="">
+                    <h3>MIE ACEH</h3>
+                    <p>Mie kuning tebal dengan irisan daging sapi, daging kambing atau makanan
+                        laut (udang dan cumi) disajikan dalam sup sejenis kari yang gurih dan pedas.</p>
+                </div>
+                <div class="card-menu">
+                    <img src="assets/img/menu/menu4.png" alt="">
+                    <h3>NON - COFFEE</h3>
+                    <p>Kami juga memiliki menu non-coffee untuk kamu yang ingin pilihan lain selain kopi dan untuk anak - anak.</p>
+                </div>
+            </article>
+            <article class="about" id="about">
+                <div class="about-text">
+                    <h3>Cerita Kami</h3>
+                    <p>
+                        Warung kopi, kafe, atau kedai kopi (umumnya disingkat Warkop) adalah tempat usaha yang utamanya menyajikan kopi (dari berbagai jenis, misalnya espresso, latte, cappuccino). Beberapa warung kopi mungkin menyajikan minuman dingin seperti es kopi dan es teh. Warung kopi juga dapat menyajikan makanan seperti camilan ringan, sandwich, muffin, buah, atau kue kering. Warung kopi berangkat dari bisnis kecil yang dioperasikan oleh pemilik hingga perusahaan multinasional besar. Beberapa jaringan warung kopi beroperasi dengan model bisnis waralaba, dengan banyak cabang di berbagai negara di seluruh dunia. <br><br>
+
+                        Dari suatu pengamatan budaya, warung kopi dapat dilihat sebagai pusat interaksi sosial; warung kopi memberi kesempatan kepada anggota-anggota sosial untuk berkumpul, berbicara, menulis, membaca, menghibur satu sama lain, atau menghabiskan waktu, baik secara individu atau dalam kelompok kecil. Hal ini dapat ditemukan pada masyarakat Minangkabau yang warung kopinya disebut dengan lapau. Di Jawa, khususnya wilayah Jawa Tengah, Daerah Istimewa Yogyakarta, dan Jawa Timur, warung kopi juga dapat ditemukan dalam bentuk angkringan atau pedagang keliling yang menggunakan gerobak, sepeda, maupun motor. Orang-orang dari semua kalangan tanpa memandang latar belakang suku, ras, keluarga, maupun agama dapat berkumpul dan berinteraksi dalam satu tempat.
+                    </p>
+                </div>
+                <div class="about-img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
+            </article>
+
+            <!-- Gallery title-->
+            <div class="container">
+                <h4 id="gallery">Our Moments</h4>
+                <h2>GALLERY</h2>
+                <div class="line"></div>
+            </div>
+
+            <!-- Gallery content -->
+            <article class="gallery">
+                <div class="gallery-photos">
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri1.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri2.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri3.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri4.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri5.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri6.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri7.jpeg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri8.jpeg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri9.jpg" alt="">
+                    </div>
+                    <div class="photos">
+                        <img src="assets/img/gallery/galeri10.jpg" alt="">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Contact title -->
+            <div class="container" id="contact">
+                <h4>Get Up Close and Personal</h4>
+                <h2>CONTACT US</h2>
+                <div class="line"></div>
+            </div>
+
+            <!-- Contact content -->
+            <article class="sosmed-box">
+                <div class="sosmed">
+                    <a href="">
+                        <i class="fa fa-instagram"></i>
+                        <span>Instagram</span>
+                        <span>warkoplamcara.id</span>
+                    </a>
+                    <div class="line"></div>
+                    <a href="">
+                        <i class="fa fa-facebook"></i>
+                        <span>Facebook</span>
+                        <span>warkoplamcara.id</span>
+                    </a>
+                    <div class="line"></div>
+                    <a href="">
+                        <i class="fa fa-twitter"></i>
+                        <span>Twitter</span>
+                        <span>warkoplamcara.id</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <div class="aboutme">
+            <h1 align="center" style="padding-top: 50px;">About Me</h1>
+            <aside>
+                <div class="aside-content">
+                    <div class="aside-desc">
+                        <h1>Hi, Im Muhammad Hafidz Arbanov</h1>
+                        <p>I'm a Bangkit 2023 Participant in Cloud Computing. <br> 
+                            <b>Let's get acquainted with me!</b></p>
+                    </div>
+                    <div class="aside-img">
+                        <img src="assets/img/aside/saya2.png" alt="hafidz">
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+        
+    <footer>
+        <p>Muhammad Hafidz Arbanov &#169; 2023, Bangkit Academy</p>
+    </footer>
+</body>
+</html>
